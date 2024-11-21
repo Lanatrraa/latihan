@@ -117,16 +117,20 @@
             </div>
         </section>
     </div>
+<audio src="MyLoveWestlife.mp3" id="laguUndangan"></audio>
 </body>
 <script>
     const DikaGalon= document.getElementById("btnBukaUndangan")
     const isiUndangan= document.getElementById("isiUndangan")
+    const laguUndangan = document.getElementById("laguUndangan");
 
     console.log(DikaGalon, isiUndangan);
 
     DikaGalon.addEventListener("click", function(){
         // console.log("testing tombol di klik");
         isiUndangan.classList.toggle("hidden");
+        lagundangan.play();
+
     })
 </script>
 </html>
